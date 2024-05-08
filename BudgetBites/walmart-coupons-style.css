@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body,
+main {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #EDFF86;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/*header formatting CONSTANT*/
+header{
+    color: #AEBB36;
+}
+
+.banner{
+    background-color: #40290F;
+    width: 100%;
+    height: 17vh;
+    padding-left: 40px;
+    padding-top:6vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+
+.banner-right {
+    float: right;
+    margin:auto;
+    color: #AEBB36;
+    margin-right: 4vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a[class=recipies] {
+    color: #AEBB36;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 3vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    margin: 1vh;
+    border-radius: 12px;
+}
+    
+a[class=recipies]:hover {
+    background-color: #FFF5B2;
+    }
+
+header {
+    color: #AEBB36;
+}
+
+/************************/
+
+.stores {
+    background-color: #EDFF86;
+}
+
+.side-by-side {
+    display: inline-block;
+}
+
+a {
+    border: none;
+    color: #EDFF86;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+a:hover {
+    background-color: #D3B369;
+}
+
+.deals {
+    padding: 2em;
+}
+
+.deals h2 {
+    color: #40290F;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.deals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deals li {
+    margin: 0px;
+}
+
+.coupon-container {
+    display: flex;
+    align-items: center;
+}
+
+.coupon-container img {
+    width: 45vh;
+    height: 45vh;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heart .heart-icon {
+    width: 23px;
+    height: 20px;
+}
+
+.heart .heart-checkbox {
+    display: none;
+}
+
+.heart .heart-checkbox:checked + label {
+    background-color: red;
+}
+
+.heart label {
+    display: inline-block;
+    width: 100%;
+}
+
+.search-bar-large {
+    margin-bottom: 2vh;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+  }
+
+.search-bar-large:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.coupon-list li {
+    display: none;
+}
+
+.coupon-list li[aria-label*="Avocado"],
+.coupon-list li[aria-label*="Cheese"],
+.coupon-list li[aria-label*="Rice"],
+.coupon-list li[aria-label*="SoySauce"],
+.coupon-list li[aria-label*="Strawberry"],
+.coupon-list li[aria-label*="Tomato"],
+.coupon-list li[aria-label*="Bellpepper"],
+.coupon-list li[aria-label*="Egg"],
+.coupon-list li[aria-label*="Broccoli"],
+.coupon-list li[aria-label*="Kiwi"],
+.coupon-list li[aria-label*="Milk"],
+.coupon-list li[aria-label*="Yogurt"] {
+    display: inline-block;
+}
+
+/* small phones: 0 - 480px */
+@media only screen and (max-width: 480px) {
+    .deals h2{
+        font-size: 37px;
+        margin-bottom: 2vh;
+    }
+    .coupon-container img {
+        width: 37vh;
+        height: 37vh;
+        object-fit: cover;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    a {
+        margin: auto;
+    }
+}

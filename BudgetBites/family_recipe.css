@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html
+,
+
+main {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #EDFF86;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header{
+    color: #AEBB36;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end of the banner */
+  align-items: center; /* Center items vertically */
+  background-color: #40290F;
+  width: 100%;
+  height: 130px;
+  padding-left: 40px;
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+.banner-right a {
+  margin-left: 20px;
+}
+
+.banner-right img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.stores{
+    background-color:#EDFF86;
+}
+
+.side-by-side {
+    display: inline-block;
+}a {
+    border: none;
+    color: #EDFF86;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    margin-left: 225px;
+}
+
+
+.deals {
+    padding: 2em;
+}
+
+.deals h2 {
+    color: #40290F;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.deals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+
+  .deals li {
+    margin: 0px;
+  }
+
+  .coupon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+  }
+
+  .coupon-container img {
+    width: 35h;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .recipe-textbox {
+    width: 600px; /* Adjust width for longer lines */
+    margin-top: 50px; /* Adjust top margin for centering */
+    margin-left: 445px; /* Center the recipe text box horizontally */
+  }
+  
+  .recipe-textbox h3 {
+    font-size: 24px;
+    text-align: center; /* Center the recipe title */
+  }
+  
+  .recipe-textbox ol {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  

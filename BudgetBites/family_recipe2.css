@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html
+,
+
+main {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #EDFF86;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header{
+    color: #AEBB36;
+}
+
+.banner{
+    background-color: #40290F;
+    width: 100%;
+    height: 130px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+
+.banner-right {
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+.banner-right a {
+  margin-left: 20px;
+}
+
+.banner-right img {
+  width: 30px;
+  height: 30px;
+}
+
+.stores{
+    background-color:#EDFF86;
+}
+
+.side-by-side {
+    display: inline-block;
+}a {
+    border: none;
+    color: #EDFF86;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 10px;
+    border-radius: 12px;
+    margin-left: 210px;
+}
+
+
+.deals {
+    padding: 2em;
+}
+
+.deals h2 {
+    color: #40290F;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.deals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  .deals li {
+    margin: 0px;
+  }
+
+  .coupon-container {
+    display: flex;
+    margin-left: 83px;
+  }
+
+  .coupon-container img {
+    width: 30h;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .recipe-textbox {
+    width: 750px; /* Adjust width for longer lines */
+    margin-top: 50px; /* Adjust top margin for centering */
+    margin-left: 370px; /* Center the recipe text box horizontally */
+  }
+  
+  .recipe-textbox h3 {
+    font-size: 24px;
+    text-align: center; 
+  }
+  
+  .recipe-textbox ol {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  

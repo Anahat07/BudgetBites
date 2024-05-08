@@ -1,0 +1,45 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+    
+}
+
+html
+{
+    width: 320px;  /* max: 800px */
+    height: 370px; /* max: 600px */
+    
+}
+
+header{
+    font-size: 10vh;
+    color: #AEBB36;
+    margin: 2vh;
+}
+
+/* css for coupons */
+.coupons{
+    background-color: #AEBB36;
+    border-radius: 16px;
+    width: 80vw;
+    margin-right: 4vh;
+    margin-top: 2vh;
+    border: none;
+    color: #40290F;
+}
+
+.coupon-text {
+    padding-top: 3vh;
+}
+
+.coupon-button {
+    float: right;
+    border-radius: 3px;
+    padding: 1vh;
+    border: none;
+    background-color: #FFF5B2;
+    margin-bottom: 2vh;
+}
+
+/* css for flip over card */

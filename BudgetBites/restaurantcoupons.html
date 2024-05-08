@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="BudgetBites">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="restaurant-coupons-style.css">
+    <title>BudgetBites</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+  <header>
+    <div class="banner">
+        <h1 class="side-by-side">BudgetBites</h1>
+        <div class="banner-right">
+        <div class="side-by-side"><a href='stores.html'>Back</a></div>
+        </div>
+    </div>
+  </header>
+    <main>
+        <section class="deals">
+            <h2>End-Of-The-Day Deals; Your Nearby Restaurants</h2>
+            <input type="search" id="search" placeholder="Find a food..." class="search-bar-large">
+
+            <div class="container">
+              <div class="row">
+
+            <ul id="coupon-list">
+              <li id="ramen" aria-label="Ramen" data-product="Ramen">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/misoRamen.png" alt="Ramen">
+                    <div class="heart">
+                        <input type="checkbox" id="heart1" class="heart-checkbox">
+                        <label for="heart1"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                    <a class="start-journey-btn" href = "https://www.google.com/maps/dir/Bahen+Centre+for+Information+Technology,+Bahen+Centre+for+Information+Technology,+Saint+George+Street,+Toronto,+ON/421+College+St,+Toronto,+ON+M5T+1T1/@43.6581461,-79.4067691,16z/data=!3m2!4b1!5s0x882b34ebdeef427f:0x970f6de1aafd83c6!4m14!4m13!1m5!1m1!1s0x882b34c75165c957:0x6459384147b4b67b!2m2!1d-79.397298!2d43.6598045!1m5!1m1!1s0x882b34ebddf6c437:0xa815f766d0687565!2m2!1d-79.4069846!2d43.6564552!3e2?entry=ttu">Start Journey</a>
+                  </div>
+              </li>
+              <li id="pizza" aria-label="Pizza" data-product="Pizza">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/pestoPitaPizza.png" alt="Pizza">
+                    <div class="heart">
+                        <input type="checkbox" id="heart2" class="heart-checkbox">
+                        <label for="heart2"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                    <a class="start-journey-btn" href = "https://www.google.com/maps/dir/Bahen+Centre+for+Information+Technology,+Bahen+Centre+for+Information+Technology,+Saint+George+Street,+Toronto,+ON/12+Kensington+Ave,+Toronto,+ON+M5T+2K1/@43.6565065,-79.4038643,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x882b34c75165c957:0x6459384147b4b67b!2m2!1d-79.397298!2d43.6598045!1m5!1m1!1s0x882b34c2ff770b09:0x7ce77ede7ef5af2f!2m2!1d-79.4002771!2d43.6531593!3e2?entry=ttu">Start Journey</a>
+                  </div>
+              </li>
+              <li id="taco" aria-label="Taco" data-product="Taco">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/chilacaTaco.png" alt="Taco">
+                    <div class="heart">
+                        <input type="checkbox" id="heart3" class="heart-checkbox">
+                        <label for="heart3"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                    <a class="start-journey-btn" href="https://www.google.com/maps/dir/Bahen+Centre+for+Information+Technology,+Bahen+Centre+for+Information+Technology,+Saint+George+Street,+Toronto,+ON/214+Augusta+Ave,+Toronto,+ON+M5T+2L6/@43.6572518,-79.4023448,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x882b34c75165c957:0x6459384147b4b67b!2m2!1d-79.397298!2d43.6598045!1m5!1m1!1s0x882b34c273455555:0x244f0143d112d18a!2m2!1d-79.4023373!2d43.6546767!3e2?entry=ttu">Start Journey</a>
+                  </div>
+              </li>
+            </ul>
+            </div>
+          </div>
+          </section>
+    </main>
+    <script src="searchbar2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

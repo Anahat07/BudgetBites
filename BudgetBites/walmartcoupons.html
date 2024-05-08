@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="author" content="BudgetBites">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script src="https://kit.fontawesome.com/c6ffe2ba2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="walmart-coupons-style.css">
+    <title>BudgetBites</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+  <header>
+    <div class="banner">
+        <h1 class="side-by-side">BudgetBites</h1>
+        <div class="banner-right side-by-side"><a class="recipies" href="recipe.html">Recipes</a></div>
+        <div class="banner-right side-by-side">Your Current Points: 1200</div>      
+    </div>
+  </header>
+    <main>
+        <section class="deals">
+            <h2>Available Coupons</h2>
+            <input type="search" id="search" placeholder="Search for a product..." class="search-bar-large">
+
+            <div class="container">
+              <div class="row">
+
+            <ul id="coupon-list">
+              <li id="avocado" aria-label="Avocado" data-product="Avocado">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/avocado.png" alt="Avocado">
+                    <div class="heart">
+                        <input type="checkbox" id="heart1" class="heart-checkbox">
+                        <label for="heart1"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="cheese" aria-label="Cheese" data-product="Cheese">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/cheese.png" alt="Cheese">
+                    <div class="heart">
+                        <input type="checkbox" id="heart2" class="heart-checkbox">
+                        <label for="heart2"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="rice" aria-label="Rice" data-product="Rice">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/rice.png" alt="Rice">
+                    <div class="heart">
+                        <input type="checkbox" id="heart3" class="heart-checkbox">
+                        <label for="heart3"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="soysauce" aria-label="SoySauce" data-product="SoySauce">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/soysauce.png" alt="SoySauce">
+                    <div class="heart">
+                        <input type="checkbox" id="heart4" class="heart-checkbox">
+                        <label for="heart4"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="strawberry" aria-label="Strawberry" data-product="Strawberry">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/strawberry.png" alt="Strawberry">
+                    <div class="heart">
+                        <input type="checkbox" id="heart5" class="heart-checkbox">
+                        <label for="heart5"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="tomato" aria-label="Tomato" data-product="Tomato">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/tomato.png" alt="Tomato">
+                    <div class="heart">
+                        <input type="checkbox" id="heart6" class="heart-checkbox">
+                        <label for="heart6"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="bellpepper" aria-label="Bellpeper" data-product="Bellpeper">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/bellpepper.png" alt="Bellpeper">
+                    <div class="heart">
+                        <input type="checkbox" id="heart7" class="heart-checkbox">
+                        <label for="heart7"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="egg" aria-label="Egg" data-product="Egg">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/egg.png" alt="Egg">
+                    <div class="heart">
+                        <input type="checkbox" id="heart8" class="heart-checkbox">
+                        <label for="heart8"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="broccoli" aria-label="Broccoli" data-product="Broccoli">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/broccoli.png" alt="Broccoli">
+                    <div class="heart">
+                        <input type="checkbox" id="heart9" class="heart-checkbox">
+                        <label for="heart9"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="kiwi" aria-label="Kiwi" data-product="Kiwi">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/kiwi.png" alt="Kiwi">
+                    <div class="heart">
+                        <input type="checkbox" id="heart10" class="heart-checkbox">
+                        <label for="heart10"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="milk" aria-label="Milk" data-product="Milk">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/milk.png" alt="Milk">
+                    <div class="heart">
+                        <input type="checkbox" id="heart11" class="heart-checkbox">
+                        <label for="heart11"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+              <li id="yogurt" aria-label="Yogurt" data-product="Yogurt">
+                  <div class="coupon-container col col-lg-4 col-md-4 col-sm-6 col-12">
+                    <img src="coupons/yoplait.png" alt="Yogurt">
+                    <div class="heart">
+                        <input type="checkbox" id="heart12" class="heart-checkbox">
+                        <label for="heart12"><img src="heart.png" class="heart-icon"></label>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+            </div>
+          </div>
+          </section>
+    </main>
+    <script src="searchbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
